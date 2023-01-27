@@ -4,6 +4,77 @@
     padding:0;
     box-sizing:border-box;
 }
+body{
+    font-family:"Poppins",Arial,Helvetica,sans-serif; 
+}
 header{
+    border:1px solid #ddd;
+    overflow:auto;
+    
+}
+#logo{
+    width:150px;
+    float:left;
+}
+nav{
+    float:right;
+    padding-top:30px;
+    padding-right:100px;
+    padding-bottom:30px;
+}
+a{
+    text-decoration:none;
+    padding-left:16px;
+    color:#122b46;
+    font-weight:bold;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+a:link{
+    color:#122b46;
+}
+a:hover{
+    color:#4d5c6d;
+}
+a:active{
+    color:#ea728c;
+}
+.mwalimu{
     border:2px solid #ddd;
+    padding-left:40px;
+    margin:0;
+    background-color:rgb(255,206,236,0.2) ;
+    word-wrap:break-word;
+    overflow:auto;
+    text-align:left;
+}
+#teacher{
+    float:right;
+    width:50%;
+    height:70%;
+    padding-top:180px;
+}
+#question{
+    font-size:60px;
+    font-weight:bold;
+    color:#122b46;
+    padding-top:80px;
+    padding-bottom:25px;
+    padding-left:90px;
+    font-family: 'Poppins', sans-serif; 
+}
+.mwalimu2{
+    padding-left:90px;
+    font-size:large;
+    padding-bottom:30px;
+    font-family: 'Poppins', sans-serif; 
+}
+#login{
+    margin-left:90px;
+    padding:12px;
+    background-color:#122b46;
+    color:white;
+    border:2px solid #122b46;
+    border-radius:6px;
+    text-align:center;
+    font-weight:normal;
 }
