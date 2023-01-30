@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+
 }
 body{
     font-family:"Poppins",Arial,Helvetica,sans-serif; 
@@ -27,7 +28,7 @@ a{
     padding-left:16px;
     color:#122b46;
     font-weight:bold;
-    /*font-family: 'Poppins', sans-serif;*/
+    
 }
 a:link{
     color:#122b46;
@@ -39,7 +40,7 @@ a:active{
     color:#ea728c;
 }
 .mwalimu{
-    border:2px solid #ddd;
+    border:1px solid #ddd;
     padding-left:40px;
     margin:0;
     background-color:rgb(255,206,236,0.2) ;
@@ -73,8 +74,73 @@ a:active{
     padding:12px;
     background-color:#122b46;
     color:white;
-    border:2px solid #122b46;
+    border:1px solid #122b46;
     border-radius:6px;
     text-align:center;
     font-weight:normal;
+}
+.rubrics{
+    border:1px solid #ddd;
+}
+#rubheading{
+    text-align:center;
+    margin:40px;
+    color:#122b46;
+    font-size:30px;
+    font-weight:bold;
+}
+.floaters{
+    float:none;
+    display:inline-block;
+    margin:20px;
+}
+#floater1{
+    margin-left:90px;
+}
+#floater2{
+    margin-left:70px;
+}
+.rubpics{
+    border:5px solid hotpink;
+    border-radius:10px;
+    width:500px;
+}
+.prub1{
+    margin-left:90px;
+    padding:16px 0px;
+}
+.prub2{
+    margin-left:65px;
+    padding:16px 0px;
+    text-overflow:clip;
+}
+
+.subheader{
+    text-align:center;
+    margin-left:70px;
+    color:hotpink;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+.trmoses{
+    overflow:auto;
+    border:1px solid rgb(238,238,238);
+    background-color:rgb(238,238,238);
+    width:85%;
+    text-align:justify;
+    margin-left:100px;
+    margin-bottom:30px;
+    
+}
+#teacher1{
+    float:left;
+    margin:35px;
+}
+#comment{
+    padding:25px 10px;
+}
+#name{
+    padding-top:30px;
+    padding-bottom:30px;
+
 }
