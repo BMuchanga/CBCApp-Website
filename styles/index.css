@@ -108,11 +108,13 @@ a:active{
 .prub1{
     margin-left:90px;
     padding:16px 0px;
+    color:#122b46;
 }
 .prub2{
     margin-left:65px;
     padding:16px 0px;
     text-overflow:clip;
+    color:#122b46;
 }
 
 .subheader{
@@ -138,9 +140,60 @@ a:active{
 }
 #comment{
     padding:25px 10px;
+    color:#122b46;
 }
 #name{
     padding-top:30px;
     padding-bottom:30px;
+    color:#122b46;
+    font-weight:bold;
 
+}
+.CBCsolution{
+    border:2px solid #ddd;
+    overflow:auto;
+    background-color:rgba(255,206,236,0.1);
+
+    
+}
+#thecbcapp{
+    text-align:center;
+    padding-top:60px;
+    padding-bottom:45px;
+    font-size:40px;
+    font-weight:bold;
+    color:#4f3963;
+
+}
+#realsolution{
+    text-align:center;
+    padding-bottom:40px;
+    color:#4f3963;
+}
+#cbcmobile{
+    float:left;
+    height:500px;
+    margin-left:200px;
+    margin-right:40px;
+
+
+}
+.psolution{
+    padding:15px;
+    color:#122b46;
+    margin-right:30px;
+}
+#lline{
+   margin-bottom:30px;
+}
+#costbutton{
+    border:2px solid #122b46;
+    border-radius:5px;
+    background-color:#122b46;
+    text-align: center;
+    color:white;
+    padding:15px;
+    
+
+    
 }
