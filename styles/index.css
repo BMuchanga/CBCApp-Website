@@ -198,3 +198,37 @@ a:active{
 #ytvid{
     margin:130px;
 }
+.trcomments{
+    overflow:auto;
+    margin-top:0px;
+    word-spacing:1.5px;
+    color:#4d5c6d;
+}
+.remarks{
+    display:inline-block;
+    background-color:rgba(169,184,195,0.1);
+    overflow:auto;
+    border:2px solid rgba(169,184,195,0.1);
+    width:24%;
+    height:300px;
+    margin:27px;
+    margin-top:0px;
+    
+}
+#Brenda{
+   margin-left:120px;
+}
+.trpics{
+    margin-left:130px;
+    margin-top:25px;
+    margin-bottom:16px;
+}
+.trname{
+    margin-left:16px;
+    padding-bottom:16px;
+    font-weight:bold;
+}
+.ptrcomments{
+    margin-left:16px;
+    padding-bottom:32px;
+}
