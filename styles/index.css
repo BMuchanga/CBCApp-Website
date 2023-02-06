@@ -232,3 +232,39 @@ a:active{
     margin-left:16px;
     padding-bottom:32px;
 }
+.social{
+    background-color: rgba(255,206,236,0.1);
+    overflow:auto;
+    color:#36013f;
+}
+.spics{
+    float:left;
+    padding-right:16px;
+}
+.call,.office{
+    display:inline-block;
+    padding:30px;
+}
+.email{
+    padding-left:130px;
+    padding-bottom:80px;
+}
+.call{
+    padding-top:100px;
+    padding-bottom:40px;
+    padding-left:130px;
+    padding-right:130px;
+}
+.psocial{
+    padding-bottom:16px;
+}
+footer{
+    background-color:#36013f;
+}
+#pfooter{
+    padding-top:20px;
+    padding-bottom:25px;
+    padding-left:130px;
+    color:#cc9bc6;
+    font-size:13px;
+}
