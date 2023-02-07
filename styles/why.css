@@ -1,0 +1,179 @@
+*{
+    border:none;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:"Poppins",Arial,Helvetica,sans-serif; 
+}
+header{
+    border:1px solid #ddd;
+    overflow:auto;
+}
+#cbclogo{
+    width:120px;
+    float:left;
+    margin-top:16px;
+}
+nav{
+    float:right;
+    padding-top:30px;
+    padding-right:100px;
+    padding-bottom:30px;
+}
+a{
+    text-decoration:none;
+    padding-left:16px;
+    color:#122b46;
+    font-weight:bold;
+    font-size:15px;
+    
+}
+a:link{
+    color:#122b46;
+}
+a:hover{
+    color:#4d5c6d;
+}
+a:active{
+    color:#ea728c;
+}
+#expressway{
+    background-color:rgba(255,206,236,0.1) ;
+    overflow:auto;
+    border:1px solid #ddd;
+    color:#122b46;
+}
+.roadpic{
+    float:right;
+    width:60%;
+    padding-top:40px;
+}
+.pexpress{
+    margin:20px;
+    padding-left:100px;
+}
+#expressheading{
+    padding-top:100px;
+    font-size:50px;
+    padding-bottom:20px;
+}
+#section1{
+    overflow:auto;
+}
+#teachersheading{
+    text-align:center;
+    padding-top:70px;
+    color:#36013f;
+}
+#phone1{
+    float:left;
+    padding-left:100px;
+    padding-top:70px;
+    padding-right:50px;
+}
+#p1{
+    padding-top:100px;
+    margin-right:200px;
+    padding-bottom:30px;
+    font-size:19px;
+    word-spacing:2px;
+}
+#p2{
+    padding-bottom:60px;
+    margin-right:200px;
+    font-size:19px;
+    word-spacing:2px;
+}
+#featureslink{
+    border:2px solid #122b46;
+    border-radius:10px;
+    margin-top:30px;
+    background-color:#122b46;
+    text-align:center;
+    padding:20px;
+    color:white;
+}
+#section2{
+    overflow:auto;
+}
+#phone2{
+    float:left;
+    padding-left:120px;
+    padding-top:90px;
+    padding-right:100px;
+    padding-bottom:30px;
+}
+#pp1{
+    padding-top:80px;
+    margin-right:180px;
+    padding-bottom:30px; 
+    font-size:19px;
+    word-spacing:2px;
+}
+#pp2{
+    padding-bottom:60px;
+    margin-right:200px;
+    font-size:19px;
+    word-spacing:2px;
+}
+#courseslink{
+    border:2px solid #122b46;
+    border-radius:10px;
+    margin-top:30px;
+    background-color:#122b46;
+    text-align:center;
+    padding:23px;
+    color:white; 
+}
+#cbcapp{
+    text-align:center;
+    background-color:rgb(255,206,236,0.2);
+}
+#thecbcapp{
+    padding-top:100px;
+    padding-bottom:50px;
+    color:#36013f;
+}
+#pcbc{
+    padding-bottom:50px;
+    color:#36013f;
+}
+.social{
+    background-color: rgba(255,206,236,0.1);
+    overflow:auto;
+    color:#36013f;
+}
+.spics{
+    float:left;
+    padding-right:16px;
+}
+.call,.office{
+    display:inline-block;
+    padding:30px;
+}
+.email{
+    padding-left:130px;
+    padding-bottom:80px;
+}
+.call{
+    padding-top:100px;
+    padding-bottom:40px;
+    padding-left:130px;
+    padding-right:130px;
+}
+.psocial{
+    padding-bottom:16px;
+}
+footer{
+    background-color:#36013f;
+}
+#pfooter{
+    padding-top:20px;
+    padding-bottom:25px;
+    padding-left:130px;
+    color:#cc9bc6;
+    font-size:13px;
+}
