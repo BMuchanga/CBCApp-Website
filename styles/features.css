@@ -1,0 +1,224 @@
+*{
+    border:none;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family:"Poppins",Arial,Helvetica,sans-serif; 
+}
+header{
+    border:1px solid #ddd;
+    overflow:hidden;
+}
+#cbclogo{
+    width:120px;
+    float:left;
+    margin-top:16px;
+    margin-left:120px;
+}
+nav{
+    float:right;
+    padding-top:30px;
+    padding-right:100px;
+    padding-bottom:30px;
+}
+a{
+    text-decoration:none;
+    padding-left:16px;
+    color:#122b46;
+    font-weight:bold;
+    font-size:15px;
+    
+}
+a:link{
+    color:#122b46;
+}
+a:hover{
+    color:#4d5c6d;
+}
+a:active{
+    color:#ea728c;
+}
+#features{
+    overflow:hidden;
+    background-color:rgba(255,206,236,0.1);
+}
+#featurespic{
+    float:right;
+    padding-top:50px;
+}
+#featuresheading{
+    margin-top:120px;
+    margin-left:130px;
+    margin-bottom:30px;
+    font-size:45px;
+    color:#122b46;
+}
+.pfeatures{
+    margin-left:130px;
+    margin-bottom:25px;
+    color:#122b46;
+}
+#last{
+    padding-bottom:25px;
+}
+#Comparebutton{
+    margin-top:30px;
+    margin-left:130px;
+    padding:16px;
+    border:2px solid #122b46;
+    border-radius:10px;
+    color:white;
+    background-color: #122b46;
+}
+#reasons{
+    overflow:hidden;
+}
+#simplepic{
+    float:left;
+    width:65%;
+    padding-top:80px;
+    padding-right:40px;
+}
+#simple{
+    padding-top:80px;
+    padding-bottom:50px;
+    word-spacing: 3px;
+    color:hotpink;
+    
+}
+.heading1{
+    padding-bottom:20px;
+    color:purple;
+}
+.psimple{
+    padding-bottom:30px;
+    color:#4d5c6d;
+}
+#custompic{
+    float:left;
+    width:65%;
+    padding-right:40px;
+}
+#Custom{
+    margin-top:170px;
+    padding-bottom:50px;
+    color:hotpink;
+}
+#reportpic{
+    float:left;
+    width:65%;
+    padding-right:40px;
+}
+#dynamic{
+    margin-top:250px;
+    padding-bottom:50px; 
+    color:hotpink;
+}
+#securepic{
+    float:left;
+    width:65%;
+    padding-right:40px;
+    padding-top:80px;
+}
+#share{
+    padding-top:280px;
+    padding-bottom:50px; 
+    color:hotpink;
+}
+#managepic{
+    float:left;
+    width:65%;
+    padding-right:40px;
+    padding-top:80px;
+} 
+#manage{
+    padding-top:300px;
+    padding-bottom:50px; 
+    color:hotpink; 
+}
+#configpic{
+    float:left;
+    width:65%;
+    padding-right:40px;
+    padding-top:80px;
+}
+#flexible{
+    padding-top:300px;
+    padding-bottom:50px; 
+    color:hotpink;
+}
+#managepic2{
+    float:left;
+    width:65%;
+    padding-right:40px;
+    padding-top:80px;
+}
+#management{
+    padding-top:200px;
+    padding-bottom:50px; 
+    color:hotpink;
+}
+#tdetailspic{
+    float:left;
+    width:65%;
+    padding-right:40px;
+    padding-top:80px;
+}
+#admin{
+    padding-top:250px;
+    padding-bottom:50px; 
+    color:hotpink;
+}
+#reportpic2{
+    float:left;
+    width:65%;
+    padding-right:40px;
+    padding-top:80px;
+} 
+#dreports{
+    padding-top:300px;
+    padding-bottom:50px; 
+    color:hotpink;
+}
+#div8{
+    margin-bottom:60px;
+}
+.social{
+    background-color: rgba(255,206,236,0.1);
+    overflow:auto;
+    color:#36013f;
+}
+.spics{
+    float:left;
+    padding-right:16px;
+}
+.call,.office{
+    display:inline-block;
+    padding:30px;
+}
+.email{
+    padding-left:130px;
+    padding-bottom:80px;
+}
+.call{
+    padding-top:100px;
+    padding-bottom:40px;
+    padding-left:130px;
+    padding-right:130px;
+}
+.psocial{
+    padding-bottom:16px;
+}
+footer{
+    background-color:#36013f;
+}
+#pfooter{
+    padding-top:20px;
+    padding-bottom:25px;
+    padding-left:130px;
+    color:#cc9bc6;
+    font-size:13px;
+}

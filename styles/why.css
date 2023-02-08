@@ -10,12 +10,13 @@ body{
 }
 header{
     border:1px solid #ddd;
-    overflow:auto;
+    overflow:hidden;
 }
 #cbclogo{
     width:120px;
     float:left;
     margin-top:16px;
+    margin-left:160px
 }
 nav{
     float:right;

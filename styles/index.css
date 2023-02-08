@@ -10,12 +10,14 @@ body{
 }
 header{
     border:1px solid #ddd;
-    overflow:auto;
+    overflow:hidden;
     
 }
 #logo{
-    width:150px;
+    width:120px;
     float:left;
+    margin-top:16px;
+    margin-left:120px;
 }
 nav{
     float:right;
