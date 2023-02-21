@@ -42,7 +42,6 @@ a:active{
     color:#ea728c;
 }
 .mwalimu{
-    border:1px solid #ddd;
     padding-left:40px;
     margin:0;
     background-color:rgb(255,206,236,0.2) ;
@@ -80,9 +79,6 @@ a:active{
     border-radius:6px;
     text-align:center;
     font-weight:normal;
-}
-.rubrics{
-    border:1px solid #ddd;
 }
 #rubheading{
     text-align:center;
@@ -152,7 +148,6 @@ a:active{
 
 }
 .CBCsolution{
-    border:2px solid #ddd;
     overflow:auto;
     background-color:rgba(255,206,236,0.1);
 
@@ -200,25 +195,28 @@ a:active{
 #ytvid{
     margin:130px;
 }
-.trcomments{
-    overflow:auto;
-    margin-top:0px;
-    word-spacing:1.5px;
-    color:#4d5c6d;
+.flex-box{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    height:350px;
+    justify-content: space-around;
 }
 .remarks{
-    display:inline-block;
     background-color:rgba(169,184,195,0.1);
-    overflow:auto;
     border:2px solid rgba(169,184,195,0.1);
     width:24%;
     height:300px;
     margin:27px;
-    margin-top:0px;
+    margin-top:20px;
     
 }
 #Brenda{
    margin-left:120px;
+}
+#lucy{
+    margin-right:130px;
 }
 .trpics{
     margin-left:130px;
