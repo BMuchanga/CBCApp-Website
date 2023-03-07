@@ -1,272 +1,325 @@
-*{
-    border:none;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
-body{
-    font-family:"Poppins",Arial,Helvetica,sans-serif; 
-}
-header{
-    border:1px solid #ddd;
-    overflow:hidden;
-    
-}
-#logo{
-    width:120px;
-    float:left;
-    margin-top:16px;
-    margin-left:120px;
-}
-nav{
-    float:right;
-    padding-top:30px;
-    padding-right:100px;
-    padding-bottom:30px;
-}
-a{
-    text-decoration:none;
-    padding-left:16px;
-    color:#122b46;
-    font-weight:bold;
-    
-}
-a:link{
-    color:#122b46;
-}
-a:hover{
-    color:#4d5c6d;
-}
-a:active{
-    color:#ea728c;
-}
-.mwalimu{
-    border:1px solid #ddd;
-    padding-left:40px;
-    margin:0;
-    background-color:rgb(255,206,236,0.2) ;
-    word-wrap:break-word;
-    overflow:auto;
-    text-align:left;
-}
-#teacher{
-    float:right;
-    width:50%;
-    height:70%;
-    padding-top:180px;
-}
-#question{
-    font-size:60px;
-    font-weight:bold;
-    color:#122b46;
-    padding-top:80px;
-    padding-bottom:25px;
-    padding-left:90px;
-    font-family: 'Poppins', sans-serif; 
-}
-.mwalimu2{
-    padding-left:90px;
-    font-size:large;
-    padding-bottom:30px;
-    font-family: 'Poppins', sans-serif; 
-}
-#login{
-    margin-left:90px;
-    padding:12px;
-    background-color:#122b46;
-    color:white;
-    border:1px solid #122b46;
-    border-radius:6px;
-    text-align:center;
-    font-weight:normal;
-}
-.rubrics{
-    border:1px solid #ddd;
-}
-#rubheading{
-    text-align:center;
-    margin:40px;
-    color:#122b46;
-    font-size:30px;
-    font-weight:bold;
-}
-.floaters{
-    float:none;
-    display:inline-block;
-    margin:20px;
-}
-#floater1{
-    margin-left:90px;
-}
-#floater2{
-    margin-left:70px;
-}
-.rubpics{
-    border:5px solid hotpink;
-    border-radius:10px;
-    width:500px;
-}
-.prub1{
-    margin-left:90px;
-    padding:16px 0px;
-    color:#122b46;
-}
-.prub2{
-    margin-left:65px;
-    padding:16px 0px;
-    text-overflow:clip;
-    color:#122b46;
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-.subheader{
-    text-align:center;
-    margin-left:70px;
-    color:hotpink;
-    padding-bottom:1em;
-    padding-top:1em;
-}
-.trmoses{
-    overflow:auto;
-    border:1px solid rgb(238,238,238);
-    background-color:rgb(238,238,238);
-    width:85%;
-    text-align:justify;
-    margin-left:100px;
-    margin-bottom:30px;
-    
-}
-#teacher1{
-    float:left;
-    margin:35px;
-}
-#comment{
-    padding:25px 10px;
-    color:#122b46;
-}
-#name{
-    padding-top:30px;
-    padding-bottom:30px;
-    color:#122b46;
-    font-weight:bold;
+header {
+    border: 1px solid #ddd;
+    overflow: auto;
 
 }
-.CBCsolution{
-    border:2px solid #ddd;
-    overflow:auto;
-    background-color:rgba(255,206,236,0.1);
 
-    
+#logo {
+    width: 150px;
+    float: left;
 }
-#thecbcapp{
-    text-align:center;
-    padding-top:60px;
-    padding-bottom:45px;
-    font-size:40px;
-    font-weight:bold;
-    color:#4f3963;
 
+nav {
+    float: right;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
 }
-#realsolution{
-    text-align:center;
-    padding-bottom:40px;
-    color:#4f3963;
-}
-#cbcmobile{
-    float:left;
-    height:500px;
-    margin-left:200px;
-    margin-right:40px;
 
+a {
+    text-decoration: none;
+    padding-left: 16px;
+    color: #122b46;
+    font-weight: bold;
 
 }
-.psolution{
-    padding:15px;
-    color:#122b46;
-    margin-right:30px;
+
+a:link {
+    color: #122b46;
 }
-#lline{
-   margin-bottom:30px;
+
+a:hover {
+    color: #4d5c6d;
 }
-#costbutton{
-    border:2px solid #122b46;
-    border-radius:5px;
-    background-color:#122b46;
+
+a:active {
+    color: #ea728c;
+}
+
+.mwalimu {
+    border: 1px solid #ddd;
+    padding-left: 40px;
+    margin: 0;
+    background-color: rgb(255, 206, 236, 0.2);
+    word-wrap: break-word;
+    overflow: auto;
+    text-align: left;
+}
+
+#teacher {
+    float: right;
+    width: 50%;
+    height: 70%;
+    padding-top: 180px;
+}
+
+#question {
+    font-size: 60px;
+    font-weight: bold;
+    color: #122b46;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    padding-left: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mwalimu2 {
+    padding-left: 90px;
+    font-size: large;
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#login {
+    margin-left: 90px;
+    padding: 12px;
+    background-color: #122b46;
+    color: white;
+    border: 1px solid #122b46;
+    border-radius: 6px;
     text-align: center;
-    color:white;
-    padding:15px;
+    font-weight: normal;
 }
 
-#ytvid{
-    margin:130px;
+.rubrics {
+    width: 100%;
+    border: 1px solid #ddd;
 }
-.trcomments{
-    overflow:auto;
-    margin-top:0px;
-    word-spacing:1.5px;
-    color:#4d5c6d;
+
+#rubheading {
+    text-align: center;
+    margin: 40px;
+    color: #122b46;
+    font-size: 30px;
+    font-weight: bold;
 }
-.remarks{
-    display:inline-block;
-    background-color:rgba(169,184,195,0.1);
-    overflow:auto;
-    border:2px solid rgba(169,184,195,0.1);
-    width:24%;
-    height:300px;
-    margin:27px;
-    margin-top:0px;
-    
+
+.rubrics-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-#Brenda{
-   margin-left:120px;
+
+.floaters {
+    float: none;
+    display: inline-block;
+    flex: .4;
 }
-.trpics{
-    margin-left:130px;
-    margin-top:25px;
-    margin-bottom:16px;
+
+.rubpics {
+    border: 5px solid hotpink;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
 }
-.trname{
-    margin-left:16px;
-    padding-bottom:16px;
-    font-weight:bold;
+
+.prub1 {
+    margin-left: 90px;
+    padding: 16px 0px;
+    color: #122b46;
 }
-.ptrcomments{
-    margin-left:16px;
-    padding-bottom:32px;
+
+.prub2 {
+    text-overflow: clip;
+    color: #122b46;
 }
-.social{
-    background-color: rgba(255,206,236,0.1);
-    overflow:auto;
-    color:#36013f;
+
+.subheader {
+    text-align: center;
+    /* margin-left: 70px; */
+    color: hotpink;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
-.spics{
-    float:left;
-    padding-right:16px;
+
+.trmoses {
+    overflow: auto;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+    width: 85%;
+    text-align: justify;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
 }
-.call,.office{
-    display:inline-block;
-    padding:30px;
+
+#teacher1 {
+    float: left;
+    margin: 35px;
 }
-.email{
-    padding-left:130px;
-    padding-bottom:80px;
+
+#comment {
+    padding: 25px 10px;
+    color: #122b46;
 }
-.call{
-    padding-top:100px;
-    padding-bottom:40px;
-    padding-left:130px;
-    padding-right:130px;
+
+#name {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #122b46;
+    font-weight: bold;
+
 }
-.psocial{
-    padding-bottom:16px;
+
+.CBCsolution {
+    border: 2px solid #ddd;
+    overflow: auto;
+    background-color: rgba(255, 206, 236, 0.1);
+
+
 }
-footer{
-    background-color:#36013f;
+
+#thecbcapp {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4f3963;
+
 }
-#pfooter{
-    padding-top:20px;
-    padding-bottom:25px;
-    padding-left:130px;
-    color:#cc9bc6;
-    font-size:13px;
+
+#realsolution {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #4f3963;
+}
+
+#cbcmobile {
+    float: left;
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 40px;
+
+
+}
+
+.psolution {
+    padding: 15px;
+    color: #122b46;
+    margin-right: 30px;
+}
+
+#lline {
+    margin-bottom: 30px;
+}
+
+#costbutton {
+    border: 2px solid #122b46;
+    border-radius: 5px;
+    background-color: #122b46;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+#ytvid {
+    margin: 130px;
+}
+
+.trcomments {
+    overflow: auto;
+    margin-top: 0px;
+    word-spacing: 1.5px;
+    color: #4d5c6d;
+}
+
+.remarks {
+    display: inline-block;
+    background-color: rgba(169, 184, 195, 0.1);
+    overflow: auto;
+    border: 2px solid rgba(169, 184, 195, 0.1);
+    width: 24%;
+    height: 300px;
+    margin: 27px;
+    margin-top: 0px;
+
+}
+
+#Brenda {
+    margin-left: 120px;
+}
+
+.trpics {
+    margin-left: 130px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.trname {
+    margin-left: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+.ptrcomments {
+    margin-left: 16px;
+    padding-bottom: 32px;
+}
+
+.social {
+    background-color: rgba(255, 206, 236, 0.1);
+    overflow: auto;
+    color: #36013f;
+}
+
+.spics {
+    float: left;
+    padding-right: 16px;
+}
+
+.call,
+.office {
+    display: inline-block;
+    padding: 30px;
+}
+
+.email {
+    padding-left: 130px;
+    padding-bottom: 80px;
+}
+
+.call {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.psocial {
+    padding-bottom: 16px;
+}
+
+footer {
+    background-color: #36013f;
+}
+
+#pfooter {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 130px;
+    color: #cc9bc6;
+    font-size: 13px;
+}
+
+@media(min-width: 769px) {
+    .rubrics-cards {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
