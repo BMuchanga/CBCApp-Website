@@ -8,6 +8,7 @@
 body{
     font-family:"Poppins",Arial,Helvetica,sans-serif; 
 }
+
 header{
     border:1px solid #ddd;
     overflow:hidden;
@@ -15,8 +16,7 @@ header{
 #cbclogo{
     width:120px;
     float:left;
-    margin-top:16px;
-    margin-left:120px;
+    margin:15px 25px;
 }
 nav{
     float:right;
@@ -43,51 +43,51 @@ a:active{
 }
 #features{
     overflow:hidden;
-    background-color:rgba(255,206,236,0.1);
+    background-color:rgba(255,206,236,0.3);
 }
 #featurespic{
     float:right;
     padding-top:50px;
 }
 #featuresheading{
-    margin-top:120px;
-    margin-left:130px;
-    margin-bottom:30px;
+    margin:90px 0px 30px 130px;
     font-size:45px;
     color:#122b46;
 }
 .pfeatures{
-    margin-left:130px;
-    margin-bottom:25px;
+    margin:0px 0px 25px 130px;
+    font-size:18px;
     color:#122b46;
 }
 #last{
     padding-bottom:25px;
 }
 #Comparebutton{
-    margin-top:30px;
-    margin-left:130px;
+    margin:30px 0px 0px 130px;
     padding:16px;
     border:2px solid #122b46;
     border-radius:10px;
     color:white;
     background-color: #122b46;
 }
+
 #reasons{
     overflow:hidden;
 }
-#simplepic{
+.img{
+    width:60%;
+    height:450px;
     float:left;
-    width:65%;
-    padding-top:80px;
-    padding-right:40px;
+    margin-right:30px;
 }
-#simple{
-    padding-top:80px;
-    padding-bottom:50px;
+.do{
+    overflow: auto;
+    margin:35px;
+}
+.heading{
+    padding:50px 0px 30px 0px;
     word-spacing: 3px;
     color:hotpink;
-    
 }
 .heading1{
     padding-bottom:20px;
@@ -95,132 +95,49 @@ a:active{
     font-size:35px;
 }
 .psimple{
-    padding-bottom:30px;
+    padding-bottom:10px;
     color:#4d5c6d;
-    font-size:18px;
+    font-size:18px; 
 }
-#custompic{
+
+#social{
+    display:flex;
+    flex-direction:row;
+    height:200px;
+    margin:40px 0px;
+    padding:20px;
+    justify-content: space-evenly;
+}
+
+.ssc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ddd;
+    overflow:hidden;
+    width:20%;
+}
+.xx{
     float:left;
-    width:65%;
-    padding-right:40px;
+    margin:10px;
 }
-#Custom{
-    margin-top:170px;
-    padding-bottom:50px;
-    color:hotpink;
-}
-#reportpic{
-    float:left;
-    width:65%;
-    padding-right:40px;
-}
-#dynamic{
-    margin-top:250px;
-    padding-bottom:50px; 
-    color:hotpink;
-}
-#securepic{
-    float:left;
-    width:65%;
-    padding-right:40px;
-    padding-top:80px;
-}
-#share{
-    padding-top:180px;
-    padding-bottom:50px; 
-    color:hotpink;
-}
-#managepic{
-    float:left;
-    width:65%;
-    padding-right:40px;
-    padding-top:80px;
-} 
-#manage{
-    padding-top:240px;
-    padding-bottom:50px; 
-    color:hotpink; 
-}
-#configpic{
-    float:left;
-    width:65%;
-    padding-right:40px;
-    padding-top:80px;
-}
-#flexible{
-    padding-top:180px;
-    padding-bottom:50px; 
-    color:hotpink;
-}
-#managepic2{
-    float:left;
-    width:65%;
-    padding-right:40px;
-    padding-top:80px;
-}
-#management{
-    padding-top:150px;
-    padding-bottom:50px; 
-    color:hotpink;
-}
-#tdetailspic{
-    float:left;
-    width:65%;
-    padding-right:40px;
-    padding-top:80px;
-}
-#admin{
-    padding-top:220px;
-    padding-bottom:50px; 
-    color:hotpink;
-}
-#reportpic2{
-    float:left;
-    width:65%;
-    padding-right:40px;
-    padding-top:80px;
-} 
-#dreports{
-    padding-top:230px;
-    padding-bottom:40px; 
-    color:hotpink;
-}
-#div8{
-    margin-bottom:60px;
-}
-.social{
-    background-color: rgba(255,206,236,0.1);
-    overflow:auto;
-    color:#36013f;
-}
-.spics{
-    float:left;
-    padding-right:16px;
-}
-.call,.office{
-    display:inline-block;
-    padding:30px;
-}
-.email{
-    padding-left:130px;
-    padding-bottom:80px;
-}
-.call{
-    padding-top:100px;
-    padding-bottom:40px;
-    padding-left:130px;
-    padding-right:130px;
+.xo{
+    margin:5px;
 }
 .psocial{
-    padding-bottom:16px;
+    color:purple;
 }
-footer{
-    background-color:#36013f;
+#handles{
+  flex-direction:row;  
+  background-color:white;  
 }
-#pfooter{
-    padding-top:20px;
-    padding-bottom:25px;
-    padding-left:130px;
-    color:#cc9bc6;
-    font-size:13px;
+
+footer {
+    background-color: #36013f;
+}
+
+#pfooter {
+    padding:15px 0px 15px 130px;
+    color: #cc9bc6;
+    font-size: 13px;
 }

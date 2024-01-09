@@ -15,8 +15,7 @@ header{
 #cbclogo{
     width:120px;
     float:left;
-    margin-top:16px;
-    margin-left:160px
+    margin:15px 25px;
 }
 nav{
     float:right;
@@ -47,22 +46,17 @@ a:active{
 }
 #pphone{
     float:right;
-    margin-top:70px;
-    margin-right:150px;
-    margin-left:200px;
+    margin:70px 150px 0px 200px;
 }
 #flexibility{
-    padding-top:130px;
-    padding-left:120px;
-    padding-bottom:30px;
+    padding:100px 0px 30px 120px;
     color:#122b46;
     font-size:40px;
 }
 .pflexibility{
-   padding-left:120px;
-   padding-bottom:30px;
+    padding:0px 0px 30px 120px;
    color:#122b46;
-   font-size:17px;
+   font-size:18px;
 }
 #divleft{
     margin-right:40px;
@@ -73,7 +67,7 @@ a:active{
     display:inline-block;
     width:40%;
     height:400px;
-    background-color:rgba(255,206,236,0.3);
+    background-color:rgba(255,206,236,0.5);
     overflow:auto;
     margin-left:30px;
     margin-top:80px;
@@ -121,13 +115,16 @@ a:active{
     text-align:center;
 }
 #div3{
-    background-color:rgba(255,206,236,0.3);
+    background-color:rgba(255,206,236,0.4);
+    width:85%;
+    margin:auto;
     padding-left:120px;
     padding-top:30px;
     padding-right:100px;
 }
 #p1{
     padding-bottom:20px;
+    font-size:18px;
     font-weight:bold;
 }
 #p2{
@@ -136,39 +133,44 @@ a:active{
 #div4{
     margin:100px 130px;
 }
-.social{
-    background-color: rgba(255,206,236,0.1);
-    overflow:auto;
-    color:#36013f;
+#social{
+    display:flex;
+    flex-direction:row;
+    height:200px;
+    margin:40px 0px;
+    padding:20px;
+    justify-content: space-evenly;
 }
-.spics{
+
+.ssc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ddd;
+    overflow:hidden;
+    width:20%;
+}
+.xx{
     float:left;
-    padding-right:16px;
+    margin:10px;
 }
-.call,.office{
-    display:inline-block;
-    padding:30px;
-}
-.email{
-    padding-left:130px;
-    padding-bottom:80px;
-}
-.call{
-    padding-top:100px;
-    padding-bottom:40px;
-    padding-left:130px;
-    padding-right:130px;
+.xo{
+    margin:5px;
 }
 .psocial{
-    padding-bottom:16px;
+    color:purple;
 }
-footer{
-    background-color:#36013f;
+#handles{
+  flex-direction:row; 
+  background-color:white;   
 }
-#pfooter{
-    padding-top:20px;
-    padding-bottom:25px;
-    padding-left:130px;
-    color:#cc9bc6;
-    font-size:13px;
+footer {
+    background-color: #36013f;
 }
+
+#pfooter {
+    padding:15px 0px 15px 130px;
+    color: #cc9bc6;
+    font-size: 13px;
+}
+

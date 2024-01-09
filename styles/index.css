@@ -12,48 +12,39 @@ body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-header {
-    border: 1px solid #ddd;
-    overflow: auto;
-
+header{
+    border:1px solid #ddd;
+    overflow:hidden;
 }
-
-#logo {
-    width: 150px;
-    float: left;
+#logo{
+    width:120px;
+    float:left;
+    margin:15px 25px;
 }
-
-nav {
-    float: right;
-    padding-top: 30px;
-    padding-right: 100px;
-    padding-bottom: 30px;
+nav{
+    float:right;
+    padding-top:30px;
+    padding-right:100px;
+    padding-bottom:30px;
 }
-
-a {
-    text-decoration: none;
-    padding-left: 16px;
-    color: #122b46;
-    font-weight: bold;
-
+a{
+    text-decoration:none;
+    padding-left:16px;
+    color:#122b46;
+    font-weight:bold;
+    font-size:15px;
+    
 }
-
-a:link {
-    color: #122b46;
+a:link{
+    color:#122b46;
 }
-
-a:hover {
-    color: #4d5c6d;
+a:hover{
+    color:#4d5c6d;
 }
-
-a:active {
-    color: #ea728c;
+a:active{
+    color:#ea728c;
 }
-
 .mwalimu {
-    border: 1px solid #ddd;
-    padding-left: 40px;
-    margin: 0;
     background-color: rgb(255, 206, 236, 0.2);
     word-wrap: break-word;
     overflow: auto;
@@ -71,16 +62,13 @@ a:active {
     font-size: 60px;
     font-weight: bold;
     color: #122b46;
-    padding-top: 80px;
-    padding-bottom: 25px;
-    padding-left: 90px;
+    padding:60px 0px 35px 90px;
     font-family: 'Poppins', sans-serif;
 }
 
 .mwalimu2 {
-    padding-left: 90px;
-    font-size: large;
-    padding-bottom: 30px;
+    padding: 0px 0px 30px 90px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -95,11 +83,6 @@ a:active {
     font-weight: normal;
 }
 
-.rubrics {
-    width: 100%;
-    border: 1px solid #ddd;
-}
-
 #rubheading {
     text-align: center;
     margin: 40px;
@@ -108,52 +91,45 @@ a:active {
     font-weight: bold;
 }
 
-.rubrics-cards {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#rubrics-cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.floaters {
-    float: none;
-    display: inline-block;
-    flex: .4;
+.floaters{
+    width:45%;
+    margin:20px;
 }
 
 .rubpics {
     border: 5px solid hotpink;
     border-radius: 10px;
     width: 100%;
-    max-width: 500px;
-}
-
-.prub1 {
-    margin-left: 90px;
-    padding: 16px 0px;
-    color: #122b46;
-}
-
-.prub2 {
-    text-overflow: clip;
-    color: #122b46;
 }
 
 .subheader {
     text-align: center;
-    /* margin-left: 70px; */
     color: hotpink;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding:16px 0px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.prub1{
+    margin-left: 85px;
+    padding: 8px 0px;
+    color: #122b46;
 }
 
 .trmoses {
     overflow: auto;
     border: 1px solid rgb(238, 238, 238);
     background-color: rgb(238, 238, 238);
-    width: 85%;
+    margin:30px;
+    width: 90%;
     text-align: justify;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-bottom: 30px;
 
 }
@@ -164,12 +140,12 @@ a:active {
 }
 
 #comment {
-    padding: 25px 10px;
+    padding: 15px 10px;
     color: #122b46;
 }
 
 #name {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
     color: #122b46;
     font-weight: bold;
@@ -177,11 +153,8 @@ a:active {
 }
 
 .CBCsolution {
-    border: 2px solid #ddd;
     overflow: auto;
-    background-color: rgba(255, 206, 236, 0.1);
-
-
+    background-color: rgba(255, 206, 236, 0.4);
 }
 
 #thecbcapp {
@@ -232,16 +205,15 @@ a:active {
     margin: 130px;
 }
 
-.trcomments {
-    overflow: auto;
-    margin-top: 0px;
-    word-spacing: 1.5px;
-    color: #4d5c6d;
+.flex-box{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
 }
 
 .remarks {
     display: inline-block;
-    background-color: rgba(169, 184, 195, 0.1);
+    background-color: rgba(169, 184, 195, 0.3);
     overflow: auto;
     border: 2px solid rgba(169, 184, 195, 0.1);
     width: 24%;
@@ -251,14 +223,8 @@ a:active {
 
 }
 
-#Brenda {
-    margin-left: 120px;
-}
-
 .trpics {
-    margin-left: 130px;
-    margin-top: 25px;
-    margin-bottom: 16px;
+    margin:25px 0px 16px 130px;
 }
 
 .trname {
@@ -272,37 +238,36 @@ a:active {
     padding-bottom: 32px;
 }
 
-.social {
-    background-color: rgba(255, 206, 236, 0.1);
-    overflow: auto;
-    color: #36013f;
+#social{
+    display:flex;
+    flex-direction:row;
+    height:200px;
+    margin:40px 0px;
+    padding:20px;
+    justify-content: space-evenly;
 }
 
-.spics {
-    float: left;
-    padding-right: 16px;
+.ssc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ddd;
+    overflow:hidden;
+    width:20%;
 }
-
-.call,
-.office {
-    display: inline-block;
-    padding: 30px;
+.xx{
+    float:left;
+    margin:10px;
 }
-
-.email {
-    padding-left: 130px;
-    padding-bottom: 80px;
+.xo{
+    margin:5px;
 }
-
-.call {
-    padding-top: 100px;
-    padding-bottom: 40px;
-    padding-left: 130px;
-    padding-right: 130px;
+.psocial{
+    color:purple;
 }
-
-.psocial {
-    padding-bottom: 16px;
+#handles{
+  flex-direction:row;
+  background-color:white;   
 }
 
 footer {
@@ -310,16 +275,7 @@ footer {
 }
 
 #pfooter {
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 130px;
+    padding:15px 0px 15px 130px;
     color: #cc9bc6;
     font-size: 13px;
-}
-
-@media(min-width: 769px) {
-    .rubrics-cards {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
 }

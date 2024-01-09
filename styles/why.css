@@ -6,7 +6,7 @@
 
 }
 body{
-    font-family:"Poppins",Arial,Helvetica,sans-serif; 
+    font-family:"Poppins",Arial,Helvetica,sans-serif;
 }
 header{
     border:1px solid #ddd;
@@ -15,8 +15,7 @@ header{
 #cbclogo{
     width:120px;
     float:left;
-    margin-top:16px;
-    margin-left:160px
+    margin:15px 25px;
 }
 nav{
     float:right;
@@ -49,35 +48,33 @@ a:active{
 .roadpic{
     float:right;
     width:60%;
-    padding-top:40px;
 }
 .pexpress{
     margin:20px;
     padding-left:100px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 #expressheading{
-    padding-top:100px;
+    padding:70px 0px 20px 100px;
     font-size:50px;
-    padding-bottom:20px;
 }
+
 #section1{
     overflow:auto;
 }
 #teachersheading{
     text-align:center;
-    padding-top:70px;
+    padding-top:50px;
     color:#36013f;
 }
 #phone1{
     float:left;
-    padding-left:100px;
-    padding-top:70px;
-    padding-right:50px;
+    padding:70px 50px 0px 100px;
 }
 #p1{
-    padding-top:100px;
+    padding:100px 0px 30px 0px;
     margin-right:200px;
-    padding-bottom:30px;
     font-size:19px;
     word-spacing:2px;
 }
@@ -101,15 +98,11 @@ a:active{
 }
 #phone2{
     float:left;
-    padding-left:120px;
-    padding-top:90px;
-    padding-right:100px;
-    padding-bottom:30px;
+    padding:90px 100px 30px 120px;
 }
 #pp1{
-    padding-top:80px;
+    padding:80px 0px 30px 0px;
     margin-right:180px;
-    padding-bottom:30px; 
     font-size:19px;
     word-spacing:2px;
 }
@@ -130,50 +123,56 @@ a:active{
 }
 #cbcapp{
     text-align:center;
-    background-color:rgb(255,206,236,0.2);
+    background-color:rgb(255,206,236,0.4);
 }
 #thecbcapp{
-    padding-top:100px;
-    padding-bottom:50px;
+    padding-top:50px;
+    padding-bottom:40px;
     color:#36013f;
 }
 #pcbc{
-    padding-bottom:50px;
-    color:#36013f;
-}
-.social{
-    background-color: rgba(255,206,236,0.1);
-    overflow:auto;
-    color:#36013f;
-}
-.spics{
-    float:left;
-    padding-right:16px;
-}
-.call,.office{
-    display:inline-block;
-    padding:30px;
-}
-.email{
-    padding-left:130px;
-    padding-bottom:80px;
-}
-.call{
-    padding-top:100px;
     padding-bottom:40px;
-    padding-left:130px;
-    padding-right:130px;
+    color:#36013f;
+}
+
+#social{
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(255,206,236,0.4);
+    height:270px;
+    padding:50px;
+    justify-content: space-evenly;
+}
+
+.ssc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ddd;
+    overflow:hidden;
+    width:20%;
+}
+.xx{
+    float:left;
+    margin:10px;
+}
+.xo{
+    margin:5px;
 }
 .psocial{
-    padding-bottom:16px;
+    color:purple;
 }
-footer{
-    background-color:#36013f;
+#handles{
+  flex-direction:row;
+  background-color:rgb(255,206,236,0.05);    
 }
-#pfooter{
-    padding-top:20px;
-    padding-bottom:25px;
-    padding-left:130px;
-    color:#cc9bc6;
-    font-size:13px;
+
+footer {
+    background-color: #36013f;
+}
+
+#pfooter {
+    padding:15px 0px 15px 130px;
+    color: #cc9bc6;
+    font-size: 13px;
 }
